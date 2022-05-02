@@ -1,0 +1,86 @@
+*{
+    margin: 0vw;
+    padding: 0;
+    box-sizing: border-box;
+    size: 100px;
+}
+body{
+    margin: 5vw;
+    size: 800px !important;
+    background: url("logo.png") no-repeat center center fixed; 
+    background-size: cover;
+    display: flex;
+}
+.center_div{
+    margin: 10vw;
+}
+.img{
+    margin: 10vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+h2{
+    margin-bottom: 5vw;
+}
+.desc{
+    margin-top: 20vw !important;
+    font-weight: bold;
+}
+.avtar{
+   width: 50vw;
+   height: 50vw;
+}
+.btn-grad {
+    background: linear-gradient(688deg, #0ff0b3, #036ed9);
+  }
+  .btn-grad {
+    margin: 10px;
+    margin-left: 18vw;
+    padding: 7px 15px;
+    font-size: 10px;
+    font-family: "Special Elite", cursive;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    outline: none !important;
+  }
+  
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .mention{
+    margin-top:3vh;
+      margin-left: -7vw !important;
+      margin-right: -7.5vw !important;
+      margin-bottom: -5vh;
+      /* align-content: space-between; */
+      align-content: center !important;
+      color: black;
+      font-size: smaller;
+      font-weight: 500;
+  }
+
+  hr{
+    margin-top:6vh;
+    margin-left: -20vw;
+    margin-right: -20vw;
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+  }
+
+  #icon{
+    padding: 0;
+    margin: 0;
+    width: 4vw;
+   height: 4vw;
+  }
+
+  

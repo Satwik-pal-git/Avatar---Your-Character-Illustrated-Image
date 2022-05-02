@@ -1,0 +1,15 @@
+{
+    "name": "Avatar - Your icon",
+    "version": "1.0", 
+    "description": "You can find your icon(avatar).",
+    "manifest_version": 3,
+    "action":{
+        "default_popup": "index.html", 
+        "default_icon":"logo.png"
+    }, 
+    "icons":{
+        "128": "logo.png"
+    },
+    "permissions": ["activeTab"],
+    "host_permissions": ["https://joeschmoe.io/api/v1/*"]
+}
